@@ -34,6 +34,7 @@ add_subdirectory(abc078)
 add_subdirectory(abc080)
 
 # abc079
+add_executable(abc079a abc079a.cpp)
 add_executable(abc079b abc079b.cpp)
 add_executable(abc079c abc079c.cpp)
 add_executable(abc079d abc079d.cpp)
