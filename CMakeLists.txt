@@ -39,6 +39,7 @@ add_executable(abc079d abc079d.cpp)
 add_executable(abc088d abc088d.cpp)
 
 # abc080
+add_executable(abc080a abc080a.cpp)
 add_executable(abc080b abc080b.cpp)
 add_executable(abc080c abc080c.cpp)
 add_executable(abc080d abc080d.cpp)
