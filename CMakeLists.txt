@@ -26,18 +26,13 @@ add_executable(arc031b arc031b.cpp)
 # arc037
 add_executable(arc037b arc037b.cpp)
 
-# abc075 - abc078, abc080
+# abc075 - abc080
 add_subdirectory(abc075)
 add_subdirectory(abc076)
 add_subdirectory(abc077)
 add_subdirectory(abc078)
+add_subdirectory(abc079)
 add_subdirectory(abc080)
-
-# abc079
-add_executable(abc079a abc079a.cpp)
-add_executable(abc079b abc079b.cpp)
-add_executable(abc079c abc079c.cpp)
-add_executable(abc079d abc079d.cpp)
 
 # abc088
 add_executable(abc088d abc088d.cpp)
