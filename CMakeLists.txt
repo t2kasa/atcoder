@@ -26,6 +26,8 @@ add_executable(arc031b arc031b.cpp)
 # arc037
 add_executable(arc037b arc037b.cpp)
 
+add_subdirectory(abc045)
+
 # abc075 - abc080
 add_subdirectory(abc075)
 add_subdirectory(abc076)
@@ -49,7 +51,3 @@ add_executable(abc108c abc108c.cpp)
 
 add_executable(tpdc_o_string tpdc_o_string.cpp)
 
-add_executable(abc045a abc045a.cpp)
-add_executable(abc045b abc045b.cpp)
-add_executable(abc045c abc045c.cpp)
-add_executable(abc045d abc045d.cpp)
