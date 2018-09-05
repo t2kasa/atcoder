@@ -1,5 +1,5 @@
 // https://beta.atcoder.jp/contests/abc070
-// status:
+// status: [solve][review]
 // tag: [BFS][DFS]
 
 #define SUBMIT
