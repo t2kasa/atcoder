@@ -33,7 +33,7 @@ RLLwwdWIxxNNQUUXXVVMMooBBaggDKqcimmeYrhAljOOTTJuuzzn
     }
 
     string prev = "none";
-    // 最初の色は3通り
+    // 最初の色の選び方は3通り
     uint64_t ans = 1 * 3;
     int x = 0;
     while (true) {
@@ -41,6 +41,8 @@ RLLwwdWIxxNNQUUXXVVMMooBBaggDKqcimmeYrhAljOOTTJuuzzn
 
         // 2x1のドミノ
         if (s[0][x] == s[1][x]) {
+            // prev: 縦, curr: 縦 2通り
+            // prev: 横, curr: 縦 1通り
             if (prev == "v") (ans *= 2) %= MOD;
             else (ans *= 1) %= MOD;
 
@@ -49,6 +51,8 @@ RLLwwdWIxxNNQUUXXVVMMooBBaggDKqcimmeYrhAljOOTTJuuzzn
         }
         // 1x2のドミノ
         else {
+            // prev: 横, curr: 横 3通り
+            // prev: 横, curr: 縦 2通り
             if (prev == "h") (ans *= 3) %= MOD;
             else (ans *= 2) %= MOD;
 
