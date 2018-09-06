@@ -1,5 +1,5 @@
 // https://beta.atcoder.jp/contests/abc074
-// status:
+// status: [solve]
 // tag:
 
 #define SUBMIT
