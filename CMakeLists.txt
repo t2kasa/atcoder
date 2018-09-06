@@ -41,8 +41,9 @@ add_executable(abc070d abc070d.cpp)
 add_executable(abc071d abc071d.cpp)
 add_executable(abc072d abc072d.cpp)
 add_executable(abc073d abc073d.cpp)
-add_executable(abc074c abc074c.cpp)
 add_executable(abc074a abc074a.cpp)
+add_executable(abc074b abc074b.cpp)
+add_executable(abc074c abc074c.cpp)
 add_executable(abc074d abc074d.cpp)
 
 # abc088
