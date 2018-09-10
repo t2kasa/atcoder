@@ -28,6 +28,7 @@ add_executable(arc037b arc037b.cpp)
 
 add_subdirectory(abc045)
 add_subdirectory(abc072)
+add_subdirectory(abc074)
 add_subdirectory(abc075)
 add_subdirectory(abc076)
 add_subdirectory(abc077)
@@ -46,10 +47,6 @@ add_executable(abc073a abc073a.cpp)
 add_executable(abc073b abc073b.cpp)
 add_executable(abc073c abc073c.cpp)
 add_executable(abc073d abc073d.cpp)
-add_executable(abc074a abc074a.cpp)
-add_executable(abc074b abc074b.cpp)
-add_executable(abc074c abc074c.cpp)
-add_executable(abc074d abc074d.cpp)
 
 # abc088
 add_executable(abc088d abc088d.cpp)
