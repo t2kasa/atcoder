@@ -6,8 +6,10 @@ using namespace std;
 void print_yes_no(bool cond, string yes = "Yes", string no = "No") { cout << (cond ? yes : no) << endl; }
 
 int main() {
-    string s;
-    cin >> s;
-    print_yes_no(s[0] == s[2]);
+    int a, b, c, d;
+    cin >> a >> b >> c >> d;
+    int left = max(a, c), right  = min(b, d);
+    int ans = max(right - left, 0);
+    cout << ans << endl;
     return 0;
 }
