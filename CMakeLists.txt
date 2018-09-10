@@ -27,6 +27,7 @@ add_executable(arc031b arc031b.cpp)
 add_executable(arc037b arc037b.cpp)
 
 add_subdirectory(abc045)
+add_subdirectory(abc064)
 add_subdirectory(abc071)
 add_subdirectory(abc072)
 add_subdirectory(abc074)
