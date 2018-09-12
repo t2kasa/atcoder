@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.10)
+set(CMAKE_CXX_STANDARD 14)
+project(atc001)
+add_executable(atc001a atc001a.cpp)
+add_executable(atc001b atc001b.cpp)
