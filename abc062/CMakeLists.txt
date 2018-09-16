@@ -1,4 +1,5 @@
 cmake_minimum_required(VERSION 3.10)
 set(CMAKE_CXX_STANDARD 14)
 project(abc062)
+add_executable(abc062a abc062a.cpp)
 add_executable(abc062d abc062d.cpp)
