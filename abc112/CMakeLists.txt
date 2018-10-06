@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.10)
+set(CMAKE_CXX_STANDARD 14)
+project(abc112)
+add_executable(abc112a abc112a.cpp)
+add_executable(abc112b abc112b.cpp)
+add_executable(abc112c abc112c.cpp)
+add_executable(abc112d abc112d.cpp)
