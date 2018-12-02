@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.10)
+set(CMAKE_CXX_STANDARD 14)
+project(tenka1)
+add_executable(tenka1a tenka1a.cpp)
+add_executable(tenka1b tenka1b.cpp)
+add_executable(tenka1c tenka1c.cpp)
+add_executable(tenka1d tenka1d.cpp)

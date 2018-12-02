@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.10)
+set(CMAKE_CXX_STANDARD 14)
+project(ddcc2019-qual)
+add_executable(ddcc2019-qual-a ddcc2019-qual-a.cpp)
+add_executable(ddcc2019-qual-b ddcc2019-qual-b.cpp)
+add_executable(ddcc2019-qual-c ddcc2019-qual-c.cpp)
