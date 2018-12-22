@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.10)
+set(CMAKE_CXX_STANDARD 14)
+project(caddi2018)
+add_executable(caddi2018a caddi2018a.cpp)
+add_executable(caddi2018b caddi2018b.cpp)
+add_executable(caddi2018c caddi2018c.cpp)
+add_executable(caddi2018d caddi2018d.cpp)
